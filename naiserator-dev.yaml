@@ -25,3 +25,8 @@ spec:
                 limits:
                   memory: "1024Mi"
                   cpu: "500m"
+  accessPolicy:
+    outbound:
+      rules:
+        - application: flex-reisetilskudd-backend
+        - application: flex-reisetilskudd-cronjob-starter
