@@ -12,6 +12,7 @@ val log: Logger = LoggerFactory.getLogger("no.nav.helse.flex.flex-reisetilskudd-
 
 fun main() {
     log.info("Starter flex-reisetilskudd-cronjob-starter")
+    Thread.sleep(1000 * 60 * 5)
 
     try {
         val request = HttpRequest.newBuilder()
