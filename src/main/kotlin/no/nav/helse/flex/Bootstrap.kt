@@ -8,7 +8,6 @@ import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.net.http.HttpResponse.BodyHandlers
 
-
 val log: Logger = LoggerFactory.getLogger("no.nav.helse.flex.flex-reisetilskudd-cronjob-starter")
 
 fun main() {
