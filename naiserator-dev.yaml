@@ -27,6 +27,7 @@ spec:
                   cpu: "500m"
   accessPolicy:
     outbound:
+      external:
+        - host: www.vg.no
       rules:
         - application: flex-reisetilskudd-backend
-        - application: flex-reisetilskudd-cronjob-starter
